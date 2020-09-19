@@ -7,8 +7,6 @@ name: Build and deploy website
 on:
   push:
     branches: [ master ]
-  
-jobs:
-  deploy:
-    runs-on: ubuntu-18.04
-   
+
+
+publish_branch: master  # deploying branch
